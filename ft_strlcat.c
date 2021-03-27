@@ -1,14 +1,8 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_strlcat.c                                       :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: drarlean <marvin@42.fr>                    +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/10/30 16:34:58 by drarlean          #+#    #+#             */
-/*   Updated: 2020/11/12 17:43:52 by drarlean         ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
+/*
+** strlcat: copyes 'size' bytes to pointer of 'dst' string
+** Copying make us possible to continue string, which 'dst' 
+** points
+*/
 
 #include "libft.h"
 

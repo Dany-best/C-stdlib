@@ -1,14 +1,7 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_memset.c                                        :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: drarlean <marvin@42.fr>                    +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/10/30 16:33:37 by drarlean          #+#    #+#             */
-/*   Updated: 2020/11/12 17:25:22 by drarlean         ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
+/*
+** The memset function fills the first n bytes of the memory area
+** pointed to by s with the constant byte c.
+*/
 
 #include "libft.h"
 

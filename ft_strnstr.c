@@ -1,15 +1,8 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_strnstr.c                                       :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: drarlean <marvin@42.fr>                    +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/10/30 16:46:10 by drarlean          #+#    #+#             */
-/*   Updated: 2020/11/16 17:32:58 by drarlean         ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
+/*
+** The strstr() function locates the first occurrence
+** of the null-terminated string needle in the 
+** null-terminated string haystack.
+*/
 #include "libft.h"
 
 char	*ft_strnstr(const char *haystack, const char *needle, size_t len)

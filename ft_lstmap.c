@@ -1,14 +1,9 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_lstmap.c                                        :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: drarlean <marvin@42.fr>                    +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/11/12 13:32:06 by drarlean          #+#    #+#             */
-/*   Updated: 2020/11/13 16:06:22 by drarlean         ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
+/*
+** lstmap: iterates *lst and applyes function 'f'
+** to the content of each element, then creates new
+** list after applying 'f' function. 'Del' function
+** if deleting items required
+*/
 
 #include "libft.h"
 
